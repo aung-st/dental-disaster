@@ -12,6 +12,15 @@ li {
 li a:hover{
     color: black;
 }
+
+.navbar img{
+    float: left;
+    position: relative;
+    width: 5rem; 
+    height: 5rem;
+    bottom: 0.25rem;
+}
+
 .navbar ul{
     list-style-type: none;
     padding: 0rem;
@@ -27,6 +36,7 @@ li a:hover{
     padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
+    text-decoration: none;
 }
 
 .navbar{
