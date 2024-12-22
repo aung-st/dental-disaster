@@ -81,11 +81,12 @@
             margin-top: 15rem;
         }
         .appointment-link {
-            color: purple; 
+            color: white; 
+            background-color: purple;
             text-decoration: none; 
             font-size: 16px; 
             padding: 10px 15px; 
-            border: 2px solid purple; 
+            border: 2px solid black; 
             border-radius: 5px;
             display: inline-block;
             transition: all 0.3s ease; 
@@ -94,7 +95,7 @@
         
         .appointment-link:hover {
             background-color: lightpurple; 
-            color: white; 
+            color: black; 
             border-color: lightpurple; 
         }
         h2 , .p-h2 {
@@ -131,7 +132,7 @@
         .cols-1{
             width: 50%;
             height: auto;
-            background-color: #008080;
+            background-color: purple;
         }
         .details{
             width: 90%;
@@ -161,7 +162,7 @@
             text-align: center;
         }
         .head-title h2{
-            color: #008080;
+            color: purple;
             font-size: 19px;
             padding: 40px 0 40px 0;
         }
@@ -176,7 +177,7 @@
         .n-nm p input{
             width: 100%;
             padding: 10px 0 10px 5px;
-            border:1px solid #008080;
+            border:1px solid purple;
             outline: none;
             border-radius: 5px;
         }
@@ -200,12 +201,12 @@
         .date p input{
             width: 100%;
             padding: 10px 0 10px 5px;
-            border:1px solid #008080;
+            border:1px solid purple;
             outline: none;
             border-radius: 5px;
         }
         .btn-2{
-            background-color: #008080;
+            background-color: purple;
             padding: 10px 20px 10px 20px;
             color: #fff;
             text-decoration: none;
@@ -216,7 +217,7 @@
         .btn-2:hover,.btn-2:focus {
             box-shadow: inset -5.5em 0 0 0 #fff,inset 5.5em 0 0 0 #fff; 
             color: #000;
-            border: 1px solid #008080; 
+            border: 1px solid purple; 
         }
 
         h2 , .p-h2 {
@@ -313,63 +314,12 @@
                 width: 100%;
             }
         }
-        /* Css for the about section */
-        .cols-1 img{
-            width: 100%;
-            height: 100%;
-        }
-        .con{
-            width: 90%;
-            margin-left: auto;
-            padding: 40px 0 40px 0;
-        }
-        .con h3{
-            color: #008080;
-            font-size: 22px;
-            font-weight: bold;
-            padding-top: 40px;
-        }
-        .con h1{
-            font-size: 42px;
-            font-weight: bold;
-            padding: 10px 0 10px 0;
-        }
-        .con p{
-            font-size: 17px;
-            color:#222223;
-            padding-bottom: 40px;
-        }
-        .content-about{
-            padding: 40px 0 40px 0;
-        }
-        .content-about h1{
-            text-align: center;
-            font-size: 30px;
-            font-weight: bold;
-        }
-        .content-about p{
-            color: #818181;
-            line-height: 1.6;
-            padding: 30px 0 0 0;
-        }
-        .quotes{
-            text-align: center;
-        }
-        .quotes p{
-            color: #222223;
-            text-shadow: 0 0 2px #008080;
-        }
-        @media(max-width:780px){
-            .cols-1 img{
-                width: 100%;
-            }
-        }
         /* css for the Services section */
         .serv-head{
             text-align: center;
         }
         .serv-head h3{
-            color: #008080;
+            color: purple;
             font-size: 22px;
             font-weight: bold;
             padding-top: 40px;
@@ -385,7 +335,7 @@
             padding: 10px 0 30px 0;
         }
         .card-img-top{
-            width: 90% !important;
+            width: 90% ;
             margin: auto;
         }
         /* Css for the footer top section */
@@ -397,7 +347,7 @@
             width: 100%;
             display: flex;
             justify-content: space-around;
-            background-color: #008080;
+            background-color: purple;
             padding: 50px 0 50px 0;
             align-items: center;
         }
@@ -405,7 +355,7 @@
             background-color: #fff;
             padding: 12px 15px 12px 15px;
             border-radius: 50%;
-            color: #008080;
+            color: purple;
         }
         .clinic-timing p{
             color: #fff;
@@ -418,7 +368,7 @@
             background-color: #fff;
             padding: 12px 15px 12px 15px ;
             border-radius: 50%;
-            color: #008080;
+            color: purple;
         }
         .clinic-add p{
             color: #fff;
