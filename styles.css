@@ -29,7 +29,7 @@ li {
 }
 
 li a:hover{
-    color: black;
+    color: rgb(192, 145, 192);
 }
 
 .navbar-icon {
@@ -64,7 +64,7 @@ li a:hover{
 }
 
 .navbar{
-    background-color: rgb(45, 141, 214); 
+    background-color: purple; 
     transition: width 1s;
 }
 
@@ -108,7 +108,7 @@ li a:hover{
     height: 100vh;
     width: 100%;
     padding: 90px 0;
-    background: #fff;
+    background: white;
   }
   .pic {
     height: auto;
@@ -139,7 +139,7 @@ li a:hover{
     margin-bottom: 20px;
   }
   span {
-    color: #4070f4;
+    color: purple;
   }
   .text p {
     color: #333;
@@ -152,7 +152,7 @@ li a:hover{
   }
   .hire {
     font-size: 18px;
-    background: #4070f4;
+    background: purple;
     color: #fff;
     text-decoration: none;
     border: none;
