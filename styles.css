@@ -1,460 +1,459 @@
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
-        * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
-        body{
-            scroll-behavior: smooth;
-            background-color: #f1f3f4;
-            width: 100%;
-            margin: 0;
-        }
-        .bg-body-tertiary{
-            background-color: purple !important;
-        }
-        #gig{
-            display: none;
-            bottom: 20px;
-            right: 35px;
-            position: fixed;
-            padding:10px 15px 10px 15px;
-            border: 2px solid rgb(73, 60, 60);
-            outline: none;
-            color: #fff;
-            background-color: purple;
-            cursor: pointer;
-            z-index: 99;
-        }
-        .logo{
-            width: 100px;
-            height: 5rem;
-        }
-        .navbar-brand{
-            color: white;
-            font-family: 'Dancing Script', cursive;
-        }
-        .navbar-brand:hover{
-            color: rgb(192, 145, 192);
-        }
-        .navbar-nav .nav-link.active{
-            color: white
-        }
-        .nav-link{
-            color: #fff;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .navbar-toggler{
-            color: rgb(192, 145, 192);
-            background-color:purple;
-        }
-        .nav-link:hover{
-            color: rgb(192, 145, 192);
-        }
-        .nav-item{
-            padding-left: 30px;
-        }
-        .collapse{
-            padding-left: 40px;
-        }
-        .upper {
-            outline: 2px solid black;
-            background-image: url(images/11.jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100%;
-            height: 55rem;
-        }
-        .p1 {
-            font-size: 3rem;
-            font-family: Arial, Helvetica, sans-serif;
-            margin-left: 60rem;
-        }
-        .p2 {
-            font-size: 2rem;
-            font-family: Arial, Helvetica, sans-serif;
-            margin-left: 60rem;
-        }
-        .word {
-            font-family: Arial, Helvetica, sans-serif;
-            margin-top: 15rem;
-        }
-        .appointment-link {
-            color: white; 
-            background-color: purple;
-            text-decoration: none; 
-            font-size: 16px; 
-            padding: 10px 15px; 
-            border: 2px solid black; 
-            border-radius: 5px;
-            display: inline-block;
-            transition: all 0.3s ease; 
-            margin-left: 60rem;
-        }
-        
-        .appointment-link:hover {
-            background-color: lightpurple; 
-            color: black; 
-            border-color: lightpurple; 
-        }
-        h2 , .p-h2 {
-            text-align: center;
-            font-size: 2rem;
-        }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: #f1f3f4;
+    width: 100%;
+    margin: 0;
+}
+.bg-body-tertiary{
+    background-color: purple !important;
+}
+#gig{
+    display: none;
+    bottom: 20px;
+    right: 35px;
+    position: fixed;
+    padding:10px 15px 10px 15px;
+    border: 2px solid rgb(73, 60, 60);
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    cursor: pointer;
+    z-index: 99;
+}
+.logo{
+    width: 15rem;
+    height: 5rem;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+    color: rgb(192, 145, 192);
+}
+.navbar-nav .nav-link.active{
+    color: white
+}
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar-toggler{
+    color: rgb(192, 145, 192);
+    background-color:purple;
+}
+.nav-link:hover{
+    color: rgb(192, 145, 192);
+}
+.nav-item{
+    padding-left: 30px;
+}
+.collapse{
+    padding-left: 40px;
+}
+.upper {
+    background-image: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 55rem;
+}
+.p1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60rem;
+}
+.p2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60rem;
+}
+.word {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15rem;
+}
+.appointment-link {
+    color: white; 
+    background-color: purple;
+    text-decoration: none; 
+    font-size: 16px; 
+    padding: 10px 15px; 
+    border: 2px solid black; 
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease; 
+    margin-left: 60rem;
+}
 
-        /* media query for responsive nav ul */
-        @media(max-width:1000px){
-            .nav-item{
-                padding-left:0;
-            }
-        }
-        .carousel-item{
-            width: 100%;
-            height: 90vh;
-            background-size: cover;
-            background-position:center;
-        }
-        .carousel-item img{
-            width: 100%;
-            height: 90vh;
-        }
-        /* Book an appointment */
-        .dent-appoinment{
-            width: 88%;
-            height: auto;
-            margin: auto;
-        }
-        .rows{
-            display: flex;
-            padding-top: 80px;
-        }
-        .cols-1{
-            width: 50%;
-            height: auto;
-            background-color: purple;
-        }
-        .details{
-            width: 90%;
-            color: #fff;
-            margin: auto;
-            align-items: center;
-            padding: 200px 0 200px 0;
-        }
-        .details h1{
-            font-size: 45px;
-        padding: 10px 0 20px 0;
-        }
-        .details p{
-            padding-top: 10px;
-            font-size: 18px;
-        }
-        .cols-2{
-            width: 50%;
-            background-color: #dbeaf1;
-        }
-        .form-input{
-            width: 80%;
-            margin-left: 20px;
-            padding-bottom: 30px;
-        }
-        .head-title{
-            text-align: center;
-        }
-        .head-title h2{
-            color: purple;
-            font-size: 19px;
-            padding: 40px 0 40px 0;
-        }
-        .n-nm p{
-            font-size: 15px;
-            color: #818181;
-            padding-bottom: 20px;
-        }
-        .n-nm p label{
-            padding-bottom: 10px;
-        }
-        .n-nm p input{
-            width: 100%;
-            padding: 10px 0 10px 5px;
-            border:1px solid purple;
-            outline: none;
-            border-radius: 5px;
-        }
-        .n-nm p input:focus{
-            border: none;
-        }
-        .date{
-            width: 80%;
-            display: flex;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        }
-        .date p{
-            padding-right: 20px;
-        }
-        .date p label{
-            font-size: 15px;
-            color: #818181;
-            padding-bottom: 20px;
-        }
-        .date p input{
-            width: 100%;
-            padding: 10px 0 10px 5px;
-            border:1px solid purple;
-            outline: none;
-            border-radius: 5px;
-        }
-        .btn-2{
-            background-color: purple;
-            padding: 10px 20px 10px 20px;
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: 0.5s;
-        }
-        .btn-2:hover,.btn-2:focus {
-            box-shadow: inset -5.5em 0 0 0 #fff,inset 5.5em 0 0 0 #fff; 
-            color: #000;
-            border: 1px solid purple; 
-        }
+.appointment-link:hover {
+    background-color: lightpurple; 
+    color: black; 
+    border-color: lightpurple; 
+}
+h2 , .p-h2 {
+    text-align: center;
+    font-size: 2rem;
+}
 
-        h2 , .p-h2 {
-            text-align: center;
-            font-size: 2rem;
-        }
+/* media query for responsive nav ul */
+@media(max-width:1000px){
+    .nav-item{
+        padding-left:0;
+    }
+}
+.carousel-item{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position:center;
+}
+.carousel-item img{
+    width: 100%;
+    height: 90vh;
+}
+/* Book an appointment */
+.dent-appoinment{
+    width: 88%;
+    height: auto;
+    margin: auto;
+}
+.rows{
+    display: flex;
+    padding-top: 80px;
+}
+.cols-1{
+    width: 50%;
+    height: auto;
+    background-color: purple;
+}
+.details{
+    width: 90%;
+    color: #fff;
+    margin: auto;
+    align-items: center;
+    padding: 200px 0 200px 0;
+}
+.details h1{
+    font-size: 45px;
+padding: 10px 0 20px 0;
+}
+.details p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.cols-2{
+    width: 50%;
+    background-color: #dbeaf1;
+}
+.form-input{
+    width: 80%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.head-title{
+    text-align: center;
+}
+.head-title h2{
+    color: purple;
+    font-size: 19px;
+    padding: 40px 0 40px 0;
+}
+.n-nm p{
+    font-size: 15px;
+    color: #818181;
+    padding-bottom: 20px;
+}
+.n-nm p label{
+    padding-bottom: 10px;
+}
+.n-nm p input{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    border:1px solid purple;
+    outline: none;
+    border-radius: 5px;
+}
+.n-nm p input:focus{
+    border: none;
+}
+.date{
+    width: 80%;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.date p{
+    padding-right: 20px;
+}
+.date p label{
+    font-size: 15px;
+    color: #818181;
+    padding-bottom: 20px;
+}
+.date p input{
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    border:1px solid purple;
+    outline: none;
+    border-radius: 5px;
+}
+.btn-2{
+    background-color: purple;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn-2:hover,.btn-2:focus {
+    box-shadow: inset -5.5em 0 0 0 #fff,inset 5.5em 0 0 0 #fff; 
+    color: #000;
+    border: 1px solid purple; 
+}
 
-        .about-us {
-            display: flex;
-            align-items: center;
-            height: 100vh;
-            width: 100%;
-            padding: 90px 0;
-            background: white;
-        }
-        .pic {
-            height: auto;
-            width: 400px;
-            border-radius: 12px;
-        }
-        .about {
-            width: 1130px;
-            max-width: 85%;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-        .text {
-            width: 540px;
-        }
-        .text h2 {
-            color: #333;
-            font-size: 90px;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-        .text h5 {
-            color: #333;
-            font-size: 22px;
-            font-weight: 500;
-            margin-bottom: 20px;
-        }
-        span {
-            color: purple;
-        }
-        .text p {
-            color: #333;
-            font-size: 18px;
-            line-height: 25px;
-            letter-spacing: 1px;
-        }
-        .data {
-            margin-top: 30px;
-        }
-        .hire {
-            font-size: 18px;
-            color: white;
-            background-color: purple;
-            text-decoration: none;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 6px;
-            transition: 0.5s;
-        }
-        .hire:hover {
-            background: #000;
-        }
-        /* media query for  carousel hidden */
-        @media(max-width:780px){
-            .carousel.slide{
-                display: none;
-            }
-        }
+h2 , .p-h2 {
+    text-align: center;
+    font-size: 2rem;
+}
 
-        /* media query for responsive form section */
-        @media(max-width:780px){
-            .rows{
-                display: block;
-            }
-            .cols-1{
-                width: 100%;
-            }
-            .details{
-                padding: 20px 0 20px 0;
-            }
-            .details h1{
-                font-size: 40px;
-            }
-            .details p{
-                font-size: 16px;
-            }
-            .cols-2{
-                width: 100%;
-            }
-        }
-        /* css for the Services section */
-        .serv-head{
-            text-align: center;
-        }
-        .serv-head h3{
-            color: purple;
-            font-size: 22px;
-            font-weight: bold;
-            padding-top: 40px;
-        }
-        .serv-head h1{
-            padding: 10px 0 30px 0;
-        }
-        .serv-del{
-            padding: 20px 0 60px 0;
-        }
-        .serv-bt{
-            text-align: center;
-            padding: 10px 0 30px 0;
-        }
-        .card-img-top{
-            width: 90% ;
-            margin: auto;
-        }
-        /* Css for the footer top section */
-        .footer{
-            width: 100%;
-            height: auto;
-        }
-        .ft-top{
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            background-color: purple;
-            padding: 50px 0 50px 0;
-            align-items: center;
-        }
-        .clinic-timing .far{
-            background-color: #fff;
-            padding: 12px 15px 12px 15px;
-            border-radius: 50%;
-            color: purple;
-        }
-        .clinic-timing p{
-            color: #fff;
-            float: right;
-            padding-left: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .clinic-add .fas{
-            background-color: #fff;
-            padding: 12px 15px 12px 15px ;
-            border-radius: 50%;
-            color: purple;
-        }
-        .clinic-add p{
-            color: #fff;
-            float: right;
-            padding-left: 20px;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        /* media query for responsive footer */
-        @media(max-width:780px){
-            .ft-top{
-                display: block;
-                text-align: center;
-            }
-            .clinic-timing p{
-                float:none;
-                padding-top: 10px;
-                line-height: 1.8;
-            }
-            .clinic-add p{
-                float:none;
-                padding-top: 10px;
-                line-height: 1.8;
-            }
-            .clinic-appoin{
-                padding-top: 20px;
-            }
-        }
-        /* css for the block bg footer */
-        .ft{
-            width: 100%;
-            background-color: #222223;
-        }
-        .ft-middle{
-            width: 80%;
-            margin: auto;
-            display: flex;
-            justify-content:space-between;
-            padding: 20px 0 20px 0;
-        }
-        .clinic-info{
-            width: 40%;
-            color: #fff;
-            padding: 30px 0 30px 0;
-        }
-        .clinic-info p{
-            padding: 20px 0 20px 0;
-            line-height: 1.8;
-            font-size: 17px; 
-        }
-        .clinic-address{
-            width:40%;
-            color: #fff;
-            padding: 50px 0 0 0;
-        }
-        .clinic-address p{
-            line-height: 1.8;
-            font-size: 17px;
-        }
-        .ft-bottom{
-            text-align: center;
-            padding: 5px 0 5px 0;
-        }
-        .ft-bottom p{
-            color: #fff;
-        }
-        /* media query for responsive footer */
-        @media(max-width:700px){
-        .ft-middle{
-            display: block;
-        }
-        .clinic-info {
-            width: 100%;
-            padding-bottom: 10px;
-        }
-        .clinic-info p{
-            font-size: 15px;
-        }
-        .clinic-address{
-            width: 100%;
-            padding-top: 10px;
-        }
-        .clinic-address p{
-            font-size: 15px;
-        }
-        .ft-bottom p{
-            font-size: 14px;
-        }
-        }
+.about-us {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: white;
+}
+.pic {
+    height: auto;
+    width: 400px;
+    border-radius: 12px;
+}
+.about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text {
+    width: 540px;
+}
+.text h2 {
+    color: #333;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.text h5 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+span {
+    color: purple;
+}
+.text p {
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.data {
+    margin-top: 30px;
+}
+.hire {
+    font-size: 18px;
+    color: white;
+    background-color: purple;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+.hire:hover {
+    background: #000;
+}
+/* media query for  carousel hidden */
+@media(max-width:780px){
+    .carousel.slide{
+        display: none;
+    }
+}
+
+/* media query for responsive form section */
+@media(max-width:780px){
+    .rows{
+        display: block;
+    }
+    .cols-1{
+        width: 100%;
+    }
+    .details{
+        padding: 20px 0 20px 0;
+    }
+    .details h1{
+        font-size: 40px;
+    }
+    .details p{
+        font-size: 16px;
+    }
+    .cols-2{
+        width: 100%;
+    }
+}
+/* css for the Services section */
+.serv-head{
+    text-align: center;
+}
+.serv-head h3{
+    color: purple;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.serv-head h1{
+    padding: 10px 0 30px 0;
+}
+.serv-del{
+    padding: 20px 0 60px 0;
+}
+.serv-bt{
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.card-img-top{
+    width: 90% ;
+    margin: auto;
+}
+/* Css for the footer top section */
+.footer{
+    width: 100%;
+    height: auto;
+}
+.ft-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    padding: 50px 0 50px 0;
+    align-items: center;
+}
+.clinic-timing .far{
+    background-color: #fff;
+    padding: 12px 15px 12px 15px;
+    border-radius: 50%;
+    color: purple;
+}
+.clinic-timing p{
+    color: #fff;
+    float: right;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.clinic-add .fas{
+    background-color: #fff;
+    padding: 12px 15px 12px 15px ;
+    border-radius: 50%;
+    color: purple;
+}
+.clinic-add p{
+    color: #fff;
+    float: right;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* media query for responsive footer */
+@media(max-width:780px){
+    .ft-top{
+        display: block;
+        text-align: center;
+    }
+    .clinic-timing p{
+        float:none;
+        padding-top: 10px;
+        line-height: 1.8;
+    }
+    .clinic-add p{
+        float:none;
+        padding-top: 10px;
+        line-height: 1.8;
+    }
+    .clinic-appoin{
+        padding-top: 20px;
+    }
+}
+/* css for the block bg footer */
+.ft{
+    width: 100%;
+    background-color: #222223;
+}
+.ft-middle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0 20px 0;
+}
+.clinic-info{
+    width: 40%;
+    color: #fff;
+    padding: 30px 0 30px 0;
+}
+.clinic-info p{
+    padding: 20px 0 20px 0;
+    line-height: 1.8;
+    font-size: 17px; 
+}
+.clinic-address{
+    width:40%;
+    color: #fff;
+    padding: 50px 0 0 0;
+}
+.clinic-address p{
+    line-height: 1.8;
+    font-size: 17px;
+}
+.ft-bottom{
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.ft-bottom p{
+    color: #fff;
+}
+/* media query for responsive footer */
+@media(max-width:700px){
+.ft-middle{
+    display: block;
+}
+.clinic-info {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.clinic-info p{
+    font-size: 15px;
+}
+.clinic-address{
+    width: 100%;
+    padding-top: 10px;
+}
+.clinic-address p{
+    font-size: 15px;
+}
+.ft-bottom p{
+    font-size: 14px;
+}
+}
