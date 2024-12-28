@@ -80,22 +80,21 @@ body{
     margin-top: 15rem;
 }
 .appointment-link {
-    color: white; 
     background-color: purple;
-    text-decoration: none; 
-    font-size: 16px; 
-    padding: 10px 15px; 
-    border: 2px solid black; 
-    border-radius: 5px;
-    display: inline-block;
-    transition: all 0.3s ease; 
-    margin-left: 60rem;
+    padding: 10px 20px;
+    color: #fff; 
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
+    display: inline-block; 
+    margin-left: 60rem; 
 }
 
-.appointment-link:hover {
-    background-color: lightpurple; 
-    color: black; 
-    border-color: lightpurple; 
+.appointment-link:hover, .appointment-link:focus {
+    background-color: #fff; 
+    color: purple; 
+    border: 1px solid purple; 
 }
 h2 , .p-h2 {
     text-align: center;
@@ -120,8 +119,8 @@ h2 , .p-h2 {
 }
 /* Book an appointment */
 .dent-appoinment{
-    width: 88%;
-    height: auto;
+    width: 80%;
+    height: 50rem;
     margin: auto;
 }
 .rows{
@@ -142,7 +141,7 @@ h2 , .p-h2 {
 }
 .details h1{
     font-size: 45px;
-padding: 10px 0 20px 0;
+    padding: 10px 0 20px 0;
 }
 .details p{
     padding-top: 10px;
