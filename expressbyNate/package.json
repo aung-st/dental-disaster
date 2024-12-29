@@ -1,0 +1,23 @@
+{
+  "name": "dental-disaster",
+  "version": "1.0.0",
+  "description": "express by Nate",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aung-st/dental-disaster.git"
+  },
+  "author": ">Nate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aung-st/dental-disaster/issues"
+  },
+  "homepage": "https://github.com/aung-st/dental-disaster#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "^2.18.1"
+  }
+}

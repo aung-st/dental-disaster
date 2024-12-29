@@ -82,19 +82,20 @@ body{
 .appointment-link {
     background-color: purple;
     padding: 10px 20px;
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px; 
-    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; 
-    display: inline-block; 
-    margin-left: 60rem; 
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    margin-left: 60rem;
 }
-
-.appointment-link:hover, .appointment-link:focus {
-    background-color: #fff; 
-    color: purple; 
-    border: 1px solid purple; 
+.appointment-link:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: purple;
+    border: 1px solid purple;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 h2 , .p-h2 {
     text-align: center;
@@ -130,7 +131,7 @@ h2 , .p-h2 {
 .cols-1{
     width: 50%;
     height: auto;
-    background-color: purple;
+    background-color: rgb(189, 46, 189);
 }
 .details{
     width: 90%;
