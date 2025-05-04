@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/aung-st/dental-disaster#readme",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "pg": "^8.15.6"
   }
 }
